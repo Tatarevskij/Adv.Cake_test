@@ -7,7 +7,7 @@ class Words
 
         $result = false;
         $strToArr = explode(" ", $string);
-        $symbols = array("!", "?", ".");
+        $symbols = array("!", "?", ".", ",");
 
         foreach ($strToArr as $str){
             foreach ($symbols as $symbol){
